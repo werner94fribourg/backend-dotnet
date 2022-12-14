@@ -16,7 +16,7 @@ builder.Services.AddCors(options =>
     options.AddDefaultPolicy(
     policy =>
     {
-        policy.WithOrigins("http://localhost:3000").AllowAnyHeader().AllowAnyMethod();
+        policy.WithOrigins("https://react-frontend.mu.vercel.app").AllowAnyHeader().AllowAnyMethod();
     });
 });
 
